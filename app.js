@@ -9,6 +9,7 @@ app.get('/api', (req, res) => {
 
 
 app.use(express.static(__dirname + '/public'));
+
 app.get('/downloadmp3', async (req, res, next) => {
 	try {
 		var url = req.query.url;

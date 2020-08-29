@@ -1,7 +1,7 @@
 let Btn = document.getElementById('btn');
 let URLinput = document.querySelector('.URL-input');
 let select = document.querySelector('.opt');
-let serverURL = 'https://custom-build-ebezrn10v.vercel.app/';
+let serverURL = 'https://tube-dl.vercel.app/';
 
 Btn.addEventListener('click', () => {
 	if (!URLinput.value) {
